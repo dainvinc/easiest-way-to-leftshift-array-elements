@@ -9,11 +9,10 @@ public class LeftShift {
     public static int[] arrayLeftRotation(int[] a, int n, int k) {
         int[] b = new int[n];
         for(int i=0; i<n; i++) {
-            System.out.println(i);
-            b[i] = a[k - 1]; 
+            b[i] = a[k]; 
             k++;
-            if(k > n) 
-                k=1;
+            if(k == n) 
+                k=0;
         }
         return b;
     }
