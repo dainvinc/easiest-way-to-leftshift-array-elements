@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class LeftShift {
 
     public static int[] arrayLeftRotation(int[] a, int n, int k) {
         int[] b = new int[n];
